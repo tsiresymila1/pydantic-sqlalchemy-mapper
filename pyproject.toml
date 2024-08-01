@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pydantic-sqlalchemy-mapper"
+version = "0.1.0"
+description = "Convert sqlalchemy model to pydantic with property loader"
+authors = ["tsiresymila <tsiresymila@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.8.2"
+sqlalchemy = "^2.0.31"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
